@@ -1,0 +1,4 @@
+# I want to check that my project works in different operating systems, I needed to add the .gitattributes file to my project to avoid incompatibility with the newlines format between OS
+
+# Enforce Unix newlines
+* text=auto eol=lfs

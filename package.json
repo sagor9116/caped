@@ -2,21 +2,52 @@
   "name": "caped",
   "version": "1.0.0",
   "private": true,
-  "description": "caped",
-  "author": "sagor9116",
+  "description": "This is a online clothing store for womans. It is fast and secure",
+  "author": "Sagor Roy",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "shopify",
+    "starter",
+    "ecommerce",
+    "e-commerce"
   ],
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
+    "test": "jest --coverage",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "prepare": "husky install"
   },
   "dependencies": {
+    "dotenv": "^16.0.0",
     "gatsby": "^4.8.0",
+    "gatsby-plugin-gatsby-cloud": "^4.8.1",
+    "gatsby-plugin-image": "^2.8.1",
+    "gatsby-plugin-sharp": "^4.8.1",
+    "gatsby-source-filesystem": "^4.8.1",
+    "gatsby-source-shopify": "^6.8.1",
+    "gatsby-transformer-sharp": "^4.8.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.3.1",
+    "shopify-buy": "^2.14.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^14.0.0-beta.8",
+    "babel-jest": "^27.5.1",
+    "babel-preset-gatsby": "^2.8.1",
+    "husky": "^7.0.4",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.5.1",
+    "lint-staged": "^12.3.4",
+    "prettier": "^2.5.1"
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
   }
 }
