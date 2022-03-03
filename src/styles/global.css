@@ -5,3 +5,7 @@
   border-style: solid;
   box-sizing: border-box;
 }
+
+main {
+  background-color: green;
+}

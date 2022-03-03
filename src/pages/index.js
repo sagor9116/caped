@@ -6,8 +6,8 @@ const IndexPage = () => {
     <main>
       <title>Home Page</title>
       <h1>This is testing the environment</h1>
-      <p>Basic setup is done</p>
-      <p>get rid off coverge</p>
+      <h2>Setting up github actions</h2>
+      <p>It seems like everything is ok</p>
     </main>
   )
 }
