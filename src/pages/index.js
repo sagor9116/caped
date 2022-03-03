@@ -8,6 +8,7 @@ const IndexPage = () => {
       <h1>This is testing the environment</h1>
       <p>Basic setup is done</p>
       <p>pusing dev branch to github</p>
+      github actions not working
     </main>
   )
 }
