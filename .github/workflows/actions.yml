@@ -34,8 +34,5 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm install
 
-      - name: build
-        if: npm build
-
       - name: Run unit tests
         run: npm test
