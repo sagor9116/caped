@@ -10,6 +10,7 @@ const IndexPage = () => {
       <p>pusing dev branch to github</p>
       <div>
         <h3>Created dev branch</h3>
+        <p>created feature-test branch to understand Rebase</p>
       </div>
     </main>
   )
