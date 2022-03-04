@@ -11,6 +11,10 @@ const IndexPage = () => {
       <div>
         <h1>Welcome to Caped Clothing</h1>
         <p>Created a dev branch and pushing a commit on this branch</p>
+        <p>
+          Created a feature-github-action branch. Then created a PR while github
+          workflow is successfully runnig with test
+        </p>
       </div>
     </main>
   )
