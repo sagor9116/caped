@@ -9,7 +9,8 @@ const IndexPage = () => {
       <p>Basic setup is done</p>
       <p>pusing dev branch to github</p>
       <div>
-        <h3>Created dev branch</h3>
+        <h1>Welcome to Caped Clothing</h1>
+        <p>Created a dev branch and pushing a commit on this branch</p>
       </div>
     </main>
   )
