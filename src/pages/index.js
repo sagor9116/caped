@@ -11,6 +11,7 @@ const IndexPage = () => {
       <div>
         <h3>Created dev branch</h3>
         <p>Feature branch testing for git rebase</p>
+        <p>Updating the repo</p>
       </div>
     </main>
   )
