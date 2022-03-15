@@ -9,3 +9,13 @@
 body {
   color: darkslategrey;
 }
+
+h1 {
+  background-color: beige;
+  color: greenyellow;
+}
+
+p {
+  background-color: red;
+  color: coral;
+}
