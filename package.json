@@ -26,16 +26,19 @@
     "gatsby": "^4.8.0",
     "gatsby-plugin-gatsby-cloud": "^4.8.1",
     "gatsby-plugin-image": "^2.8.1",
+    "gatsby-plugin-manifest": "^4.9.1",
+    "gatsby-plugin-offline": "^5.9.1",
     "gatsby-plugin-sharp": "^4.8.1",
     "gatsby-plugin-styled-components": "^5.9.0",
     "gatsby-source-filesystem": "^4.8.1",
-    "gatsby-source-shopify": "^6.8.1",
+    "gatsby-source-shopify": "^6.9.1",
     "gatsby-transformer-sharp": "^4.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.3.1",
     "shopify-buy": "^2.14.0",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.3",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.2",

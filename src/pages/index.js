@@ -4,7 +4,7 @@ import * as React from "react"
 const IndexPage = () => {
   return (
     <main>
-      <title>Home Page</title>
+      <title>CAPED</title>
       <h1>This is testing the environment</h1>
       <p>Basic setup is done</p>
       <p>pusing dev branch to github</p>

@@ -7,15 +7,5 @@
 }
 
 body {
-  background-color: chartreuse;
-}
-
-h1 {
-  background-color: beige;
-  color: greenyellow;
-}
-
-p {
-  background-color: red;
-  color: coral;
+  color: darkslategrey;
 }
