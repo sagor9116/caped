@@ -4,9 +4,10 @@ module.exports = {
   siteMetadata: {
     siteTitle: "CAPED",
     siteTitleDefault: "Caped Clothing",
-    siteUrl: "https://shopify-demo.gatsbyjs.com",
+    siteUrl: "https://caped.gatsbyjs.io/",
     hrefLang: "en",
-    siteDescription: "A Gatsby powered E-commmerce clothing site for woman",
+    siteDescription: "A Gatsby powered E-commmerce clothing site for women",
+    author: "Sagor Roy",
   },
   flags: {
     FAST_DEV: true,
@@ -44,5 +45,18 @@ module.exports = {
         storeUrl: process.env.GATSBY_SHOPIFY_STORE_URL,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Favicon`,
+        short_name: `Favicon`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: `src/images/favicon.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
   ].filter(Boolean),
 }
