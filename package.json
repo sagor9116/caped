@@ -25,6 +25,7 @@
     "dotenv": "^16.0.0",
     "gatsby": "^4.8.0",
     "gatsby-plugin-gatsby-cloud": "^4.8.1",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^2.8.1",
     "gatsby-plugin-manifest": "^4.9.1",
     "gatsby-plugin-offline": "^5.9.1",

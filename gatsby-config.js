@@ -8,6 +8,24 @@ module.exports = {
     hrefLang: "en",
     siteDescription: "A Gatsby powered E-commmerce clothing site for women",
     author: "Sagor Roy",
+    menuLinks: [
+      {
+        name: "About",
+        path: "/about",
+      },
+      {
+        name: "Collections",
+        path: "/all-collections",
+      },
+      {
+        name: "New Arrivals",
+        path: "/all-collections/new-arrivals",
+      },
+      {
+        name: "Dresses",
+        path: "/all-collections/dresses",
+      },
+    ],
   },
   flags: {
     FAST_DEV: true,
@@ -58,5 +76,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Kurale`, `Raleway\:400,500,600,800 sans-serif`],
+        display: "swap",
+      },
+    },
   ].filter(Boolean),
 }
