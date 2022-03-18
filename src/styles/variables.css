@@ -1,0 +1,13 @@
+:root {
+  /* font-family */
+  --body-font: "Raleway", sans-serif;
+  --header-font: "Kurale";
+
+  /* font size */
+  --regular: 1rem;
+  --font-small: 20px;
+  --font-medium: 24px;
+  --font-large: 32px;
+
+  --font-color: #212121;
+}
