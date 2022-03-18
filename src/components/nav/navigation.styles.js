@@ -97,6 +97,7 @@ export const IconLink = styled(Link)`
   padding: 0 1rem;
   font-size: var(--font-small);
   color: var(--font-color);
+  position: relative;
 
   @media screen and (max-width: ${breakpoints.l}px) {
     padding: 0 6px;
