@@ -9,6 +9,7 @@ const IndexPage = () => {
       <Layout>
         <h1>Main content goes here</h1>
         <p>This is changed</p>
+        <p>Pulling content from dev branch</p>
       </Layout>
     </main>
   )
