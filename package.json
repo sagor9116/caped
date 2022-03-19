@@ -14,7 +14,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "test": "jest --coverage",
+    "test": "jest --passWithNoTests --coverage",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
