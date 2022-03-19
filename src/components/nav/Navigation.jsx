@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import { v4 as uuidv4 } from "uuid"
 
 import {
@@ -22,27 +22,13 @@ import {
 } from "./navigation.styles"
 
 const Navigation = ({ siteTitle, menuLinks }) => {
-  const [scroll, setScroll] = useState(false)
   const [click, setClick] = useState(false)
-
-  const changeNav = () => {
-    if (window.scrollY >= 80) {
-      setScroll(true)
-    } else {
-      setScroll(false)
-    }
-  }
 
   const handleClick = () => setClick(!click)
 
-  useEffect(() => {
-    changeNav()
-    window.addEventListener("scroll", changeNav)
-  }, [])
-
   return (
     <Wrapper>
-      <Nav active={scroll} click={click}>
+      <Nav click={click}>
         <NavMenuContainer>
           <NavLogoLink to="/">{siteTitle}</NavLogoLink>
 
@@ -56,7 +42,6 @@ const Navigation = ({ siteTitle, menuLinks }) => {
               </NavLinks>
             ))}
           </NavMenu>
-          {/* NavMenu */}
 
           <NavSocialMenu>
             <IconLink to="/">
@@ -69,11 +54,8 @@ const Navigation = ({ siteTitle, menuLinks }) => {
               <RiShoppingBagLine />
             </IconLink>
           </NavSocialMenu>
-          {/* NavSocialMenu */}
         </NavMenuContainer>
-        {/* NavMenuContainer*/}
       </Nav>
-      {/* Nav */}
     </Wrapper>
   )
 }
